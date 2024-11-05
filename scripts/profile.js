@@ -54,7 +54,7 @@ function editUserInfo() {
         city: userCity
     })
         .then (() => {
-            console.log("Documen successfully updated.");
+            console.log("Document successfully updated.");
         })
     //c) disable edit 
     document.getElementById('personalInfoFields').disabled = true;
